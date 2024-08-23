@@ -2,18 +2,16 @@ package com.example.posts.post_params.models;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
-import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
 import java.math.BigDecimal;
 import java.util.Date;
 
 @Entity
-@Table(name = "order")
+@Table(name = "purchase_order")
 @NoArgsConstructor
 @AllArgsConstructor
-public class Order {
+public class PurchaseOrder {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
